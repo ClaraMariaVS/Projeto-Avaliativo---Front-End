@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    background-color: #DADAD2;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    height: 18vh;
+    width: 100%;
+    background-color: #FAEBD7;
+    background-image: -webkit-linear-gradient(top,#8B0000, #DADAD2);
+}
+
+#secao_banner1{
+    height:75vh;
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+    align-items:center;
+    background-color: #DADAD2;
+    background-size: contain;  
+    color: #8B0000; 
+    font-size: 2em;
+}
+#editora{
+    text-align: center;
+    color: #8B0000;
+}
+h1{
+    font-size: 2em;
+    color: #8B0000;
+}
+#secao_banner2{
+    height: 80vh;
+    background-color: #DADAD2;
+    justify-content: space-around;
+    align-items: center; 
+    background-image: -webkit-linear-gradient(top,#DADAD2#8B0000, );
+}
+/*seletor de classe*/
+#texto{
+    color: #8B0000;
+    font-size: 1em;
+
+}
+#secao_banner3{
+    background-color: #DADAD2;
+    justify-content: space-around;
+    align-items: center; 
+    background-image: -webkit-linear-gradient(top,#DADAD2#8B0000, );
+}
+#secao_banner4{
+    background-color: #DADAD2;
+    justify-content: space-around;
+    align-items: center; 
+    background-image: -webkit-linear-gradient(top,#8B0000,#DADAD2 );
+}
+#secao_card{
+    height: 50vh;
+    background-color:#DADAD2;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-image: -webkit-linear-gradient(top,#DADAD2, #8B0000 );
+}
+h2{
+    color:#8B0000 ;
+}
+.card{
+  border: 3px solid #DEB887;
+  height: 30%;
+  width: 30%;
+}
+#card_texto{
+    margin-left: 5%;
+    color: 	white;
+    font-size: 1em;
+}
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    height: 30vh;
+    width: 100%;
+    background-image: -webkit-linear-gradient(bottom,#DADAD2, #8B0000);
+}
+.card-footer{
+    height: 80%;
+    width: 25%;
+    border: 1px solid white;
+}
